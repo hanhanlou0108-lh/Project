@@ -621,8 +621,7 @@ def main():
     st.markdown("""
     <div class="hero-section">
         <h1 class="hero-title">ReviewGuard System</h1>
-            <span>✓</span>
-        </div>
+    </div>
     """, unsafe_allow_html=True)
     
     with st.spinner("Loading AI models..."):
@@ -877,13 +876,6 @@ def main():
     
     st.markdown('</div></div>', unsafe_allow_html=True)
     
-    st.markdown("""
-    <div class="footer">
-        <p class="footer-text">
-            Built with Hugging Face Transformers & DistilBERT<br>
-            <span style="color: var(--text-muted);">Sentiment Analysis • Fake Review Detection</span>
-        </p>
-    </div>
     """, unsafe_allow_html=True)
 
 
