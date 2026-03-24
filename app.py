@@ -621,12 +621,8 @@ def main():
     st.markdown("""
     <div class="hero-section">
         <h1 class="hero-title">ReviewGuard System</h1>
-        <p class="hero-subtitle">AI-Powered Sentiment Analysis & Fake Review Detection</p>
-        <div class="hero-badge">
             <span>✓</span>
-            <span>Powered by DistilBERT</span>
         </div>
-    </div>
     """, unsafe_allow_html=True)
     
     with st.spinner("Loading AI models..."):
