@@ -873,10 +873,6 @@ def main():
         if st.button("🗑️ Clear History", use_container_width=True, key="clear_history_btn"):
             st.session_state.clear_history_flag = True
             st.rerun()
-    
-    st.markdown('</div></div>', unsafe_allow_html=True)
-    
-    """, unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
