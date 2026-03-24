@@ -640,7 +640,6 @@ def main():
         """, unsafe_allow_html=True)
         st.session_state.show_success = False
     
-    st.markdown('<div class="input-card">', unsafe_allow_html=True)
     st.markdown('<div class="section-label">Enter Review Text</div>', unsafe_allow_html=True)
     
     user_input = st.text_area(
