@@ -827,6 +827,16 @@ def main():
     
     st.markdown('</div>', unsafe_allow_html=True)
 
+    st.markdown("""
+    <style>
+    /* 给底部 export / clear 按钮增加顶部间距 */
+    .export-section {
+        margin-top: 2rem;  /* 控制按钮上方的空白，可调整 */
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    
     st.markdown(f"""
     <div class="export-section">
         <div class="export-stats">
