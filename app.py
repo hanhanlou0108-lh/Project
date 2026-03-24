@@ -828,6 +828,8 @@ def main():
     
     st.markdown('</div>', unsafe_allow_html=True)
     
+    st.markdown('<div style="height: 30px;"></div>', unsafe_allow_html=True)
+
     st.markdown(f"""
     <div class="export-section">
         <div class="export-stats">
