@@ -827,8 +827,6 @@ def main():
                            st.session_state.negative_reviews_history, "negative")
     
     st.markdown('</div>', unsafe_allow_html=True)
-    
-    st.markdown('<div style="height: 30px;"></div>', unsafe_allow_html=True)
 
     st.markdown(f"""
     <div class="export-section">
